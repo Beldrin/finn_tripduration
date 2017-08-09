@@ -1,7 +1,10 @@
 # finn_tripduration
 Mission:
+
 To find out walk/drive trip duration between apartments from finn.no and your custom address. Allows to focus on advertisements in appropriate range from your office or your childern's school.
+
 Usage:
+
 Basically finn.no have very good filtration options, and there is no point to code same functionality here.
 Just browse to finn.no and select location (like Frogner), price and other conditions to search.
 Copy this URL in script for ~UrlFinn variable.
