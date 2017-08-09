@@ -1,7 +1,7 @@
 #Finn script: will find out walk/drive trip duration between apartments from finn.no and your custom address.
-library(XML)
-library(RCurl)
-library(ggmap)
+if (!require("XML")) install.packages("XML")
+if (!require("RCurl")) install.packages("RCurl")
+if (!require("ggmap")) install.packages("ggmap")
 basefinncodeURL<-"https://www.finn.no/realestate/lettings/ad.html?finnkode"
 #Basically finn.no have very good filtration options, and there is no point to code same functionality here.
 #Just browse to finn.no and select location (like Frogner), price and other conditions to search.
